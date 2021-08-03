@@ -2,22 +2,31 @@
 # which means the particular config will be locked
 - name: INSTALLATION_NAME
   value: 'Chatwoot'
+  locked: false
 - name: LOGO_THUMBNAIL
   value: '/brand-assets/logo_thumbnail.svg'
+  locked: false
 - name: LOGO
   value: '/brand-assets/logo.svg'
+  locked: false
 - name: BRAND_URL
   value: 'https://www.chatwoot.com'
+  locked: false
 - name: WIDGET_BRAND_URL
   value: 'https://www.chatwoot.com'
+  locked: false
 - name: BRAND_NAME
   value: 'Chatwoot'
+  locked: false
 - name: TERMS_URL
   value: 'https://www.chatwoot.com/terms-of-service'
+  locked: false
 - name: PRIVACY_URL
   value: 'https://www.chatwoot.com/privacy-policy'
+  locked: false
 - name: DISPLAY_MANIFEST
   value: true
+  locked: false
 - name: MAILER_INBOUND_EMAIL_DOMAIN
   value:
   locked: false
@@ -38,5 +47,7 @@
   locked: false
 - name: API_CHANNEL_NAME
   value:
+  locked: false
 - name: API_CHANNEL_THUMBNAIL
   value:
+  locked: false
